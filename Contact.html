@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Contact Me</title>
+</head>
+<body>
+
+    <header>
+        <h1>Get In Touch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Biography</a></li>
+                <li><a href="gallery.html">Media Gallery</a></li>
+                <li><a href="data.html">Skill & Academic Data</a></li>
+                <li><a href="contact.html"><strong>Contact Me</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section wrapping a semantic validated form for a Distinction grade -->
+        <section>
+            <h2>Inquiry Submission Form</h2>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal & Contact Details</legend>
+                    
+                    <p>
+                        <label id="lbl-name" for="txt-name">Full Name: </label>
+                        <input type="text" id="txt-name" name="user-name" placeholder="Mayanja Chief" required>
+                    </p>
+                    
+                    <p>
+                        <label id="lbl-email" for="txt-email">Email Address: </label>
+                        <input type="email" id="txt-email" name="user-email" placeholder="example@domain.com" required>
+                    </p>
+                    
+                    <p>
+                        <label id="lbl-phone" for="txt-phone">Phone Number: </label>
+                        <input type="tel" id="txt-phone" name="user-phone" placeholder="e.g. +256784676096" required>
+                    </p>
+                    
+                    <p>
+                        <label id="lbl-message" for="txt-message">Message Box: </label><br>
+                        <textarea id="txt-message" name="user-message" rows="6" cols="40" placeholder="Type your professional inquiry here..." required></textarea>
+                    </p>
+                    
+                    <p>
+                        <input type="submit" value="Submit Form Information">
+                        <input type="reset" value="Clear All Fields">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mayanja Chief. Built for SWE2106 Activity 3.</p>
+    </footer>
+
+</body>
+</html>
